@@ -1,0 +1,14 @@
+<script>
+	import './layout.css';
+	import favicon from '$lib/assets/favicon.svg';
+
+	let { children } = $props();
+</script>
+<style>
+	@import "tailwindcss";
+	:global(html) {
+		background: oklch(21% 0.006 285.885);
+	}
+</style>
+<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+{@render children()}

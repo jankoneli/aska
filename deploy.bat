@@ -1,0 +1,1 @@
+scp -r ./build ./package.json cornelius@192.168.18.7:/home/cornelius/pm2/aska
